@@ -1,32 +1,29 @@
-# KiCad files
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
+
+# Temporary files
+*.000
 *.bak
+*.bck
 *.kicad_pcb-bak
-*.sch-bak
-*.pro-bak
-*.pcb
-*.kicad_pcb
-*.sch
-*.pro
-*.net
-*.dcm
-*.lib
-*.cmp
-*.bom
-*.mdr
-*.erc
-*.cvg
-*.drc
-*.log
-*.dsn
-*.ses
-*.xml
-*.bak
-_autosave
-*.bak$
-*.swp
-*.backup
-*.pretty
-*.step
-*.kicad_wks
+*.kicad_sch-bak
 *-backups
 *.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
