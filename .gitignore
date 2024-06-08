@@ -29,3 +29,4 @@ _autosave
 *.step
 *.kicad_wks
 *-backups
+*.kicad_prl
